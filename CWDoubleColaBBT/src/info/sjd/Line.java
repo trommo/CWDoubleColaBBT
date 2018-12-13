@@ -9,4 +9,11 @@ public class Line {
 	            return names1[(n % names1.length) - 1]; 
 	            }
 	      }
+	   
+	   public static void main(String[] args) {
+	        String[] names = new String[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
+	        int n = 12;
+	        System.out.println(WhoIsNext(names, n));
+	   }
+	   
 	}
